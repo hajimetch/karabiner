@@ -21,7 +21,7 @@
           ],
           "to_if_alone": [
             {
-              "key_code": "end",
+              "key_code": "f11",
               "modifiers": [
                 "shift"
               ]
@@ -56,7 +56,7 @@
           ],
           "to_if_alone": [
             {
-              "key_code": "home",
+              "key_code": "f12",
               "modifiers": [
                 "shift"
               ]
