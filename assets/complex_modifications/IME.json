@@ -33,7 +33,8 @@
                 "^com\\.parallels\\.desktop$",
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
-                "^com\\.parallels\\.winapp\\."
+                "^com\\.parallels\\.winapp\\.",
+                "^com\\.amazon\\.workspaces$"
               ],
               "type": "frontmost_application_if"
             }
@@ -68,7 +69,8 @@
                 "^com\\.parallels\\.desktop$",
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
-                "^com\\.parallels\\.winapp\\."
+                "^com\\.parallels\\.winapp\\.",
+                "^com\\.amazon\\.workspaces$"
               ],
               "type": "frontmost_application_if"
             }
