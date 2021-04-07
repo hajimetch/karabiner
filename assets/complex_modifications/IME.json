@@ -2,7 +2,7 @@
   "title": "IME in macOS",
   "rules": [
     {
-      "description": "左右ShiftでIMEを切り替える(Parallels)",
+      "description": "左右ShiftでIMEを切り替える(VM)",
       "manipulators": [
         {
           "type": "basic",
