@@ -37,40 +37,6 @@
                         ]
                     },
                     {
-                        "description": "Ctrl-Alt-Deleteの設定(AWS)",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "bundle_identifiers": [
-                                            "^com\\.amazon\\.workspaces$"
-                                        ],
-                                        "type": "frontmost_application_if"
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "delete_or_backspace",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control",
-                                            "option"
-                                        ]
-                                    }
-                                },
-                                "to_if_alone": [
-                                    {
-                                        "key_code": "end",
-                                        "modifiers": [
-                                            "control",
-                                            "option"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "左右ShiftでIMEを切り替える",
                         "manipulators": [
                             {
