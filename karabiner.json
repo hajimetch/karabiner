@@ -135,7 +135,7 @@
                         ]
                     },
                     {
-                        "description": "Command+EでFinderを開く",
+                        "description": "Shift+Command+SpacebarでFinderを開く",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -147,10 +147,11 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "e",
+                                    "key_code": "spacebar",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_command"
+                                            "shift",
+                                            "command"
                                         ]
                                     }
                                 },
@@ -1530,7 +1531,7 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "control",
-                                            "left_shift"
+                                            "shift"
                                         ],
                                         "optional": [
                                             "caps_lock"
