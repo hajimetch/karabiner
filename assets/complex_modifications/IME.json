@@ -2,12 +2,12 @@
   "title": "IME in macOS",
   "rules": [
     {
-      "description": "左右ShiftでIMEを切り替える",
+      "description": "左右CommandでIMEを切り替える",
       "manipulators": [
         {
           "type": "basic",
           "from": {
-            "key_code": "left_shift",
+            "key_code": "left_command",
             "modifiers": {
               "optional": [
                 "any"
@@ -16,7 +16,7 @@
           },
           "to": [
             {
-              "key_code": "left_shift"
+              "key_code": "left_command"
             }
           ],
           "to_if_alone": [
@@ -40,7 +40,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "right_shift",
+            "key_code": "right_command",
             "modifiers": {
               "optional": [
                 "any"
@@ -49,7 +49,7 @@
           },
           "to": [
             {
-              "key_code": "right_shift"
+              "key_code": "right_command"
             }
           ],
           "to_if_alone": [

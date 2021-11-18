@@ -37,7 +37,7 @@
                         ]
                     },
                     {
-                        "description": "左右ShiftでIMEを切り替える",
+                        "description": "左右CommandでIMEを切り替える",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -53,7 +53,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "left_shift",
+                                    "key_code": "left_command",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -62,7 +62,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "left_shift"
+                                        "key_code": "left_command"
                                     }
                                 ],
                                 "to_if_alone": [
@@ -86,7 +86,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "right_shift",
+                                    "key_code": "right_command",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -95,7 +95,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "right_shift"
+                                        "key_code": "right_command"
                                     }
                                 ],
                                 "to_if_alone": [
