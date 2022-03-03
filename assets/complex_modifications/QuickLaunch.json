@@ -2,36 +2,6 @@
   "title": "QuickLaunch",
   "rules": [
     {
-      "description": "Shift+Command+SpacebarでFinderを開く",
-      "manipulators": [
-        {
-          "conditions": [
-            {
-              "bundle_identifiers": [
-                "^com\\.parallels\\.desktop\\.console"
-              ],
-              "type": "frontmost_application_unless"
-            }
-          ],
-          "from": {
-            "key_code": "spacebar",
-            "modifiers": {
-              "mandatory": [
-                "shift",
-                "command"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "open ~"
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
       "description": "右Option連打でアクティビティモニタを起動する",
       "manipulators": [
         {
