@@ -1,7 +1,7 @@
 {
     "global": {
         "check_for_updates_on_startup": true,
-        "show_in_menu_bar": false,
+        "show_in_menu_bar": true,
         "show_profile_name_in_menu_bar": false
     },
     "profiles": [
@@ -47,6 +47,7 @@
                                             "^com\\.parallels\\.vm$",
                                             "^com\\.parallels\\.desktop\\.console$",
                                             "^com\\.parallels\\.winapp\\.",
+                                            "^com\\.microsoft\\.rdc\\.macos$",
                                             "^com\\.amazon\\.workspaces$"
                                         ],
                                         "type": "frontmost_application_unless"
@@ -80,6 +81,7 @@
                                             "^com\\.parallels\\.vm$",
                                             "^com\\.parallels\\.desktop\\.console$",
                                             "^com\\.parallels\\.winapp\\.",
+                                            "^com\\.microsoft\\.rdc\\.macos$",
                                             "^com\\.amazon\\.workspaces$"
                                         ],
                                         "type": "frontmost_application_unless"

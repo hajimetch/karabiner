@@ -31,6 +31,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.amazon\\.workspaces$"
               ],
               "type": "frontmost_application_unless"
@@ -64,6 +65,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.amazon\\.workspaces$"
               ],
               "type": "frontmost_application_unless"
