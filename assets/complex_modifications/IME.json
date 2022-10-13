@@ -31,7 +31,6 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.amazon\\.workspaces$"
               ],
               "type": "frontmost_application_unless"
@@ -65,10 +64,66 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.amazon\\.workspaces$"
               ],
               "type": "frontmost_application_unless"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "CapsLockでIMEをトグルする",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "caps_lock",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "japanese_kana"
+            }
+          ],
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "en"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "from": {
+            "key_code": "caps_lock",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "japanese_eisuu"
+            }
+          ],
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
             }
           ]
         }
