@@ -20,16 +20,6 @@
                         "description": "CapsLockでIMEをトグルする",
                         "manipulators": [
                             {
-                                "conditions": [
-                                    {
-                                        "input_sources": [
-                                            {
-                                                "language": "en"
-                                            }
-                                        ],
-                                        "type": "input_source_if"
-                                    }
-                                ],
                                 "from": {
                                     "key_code": "caps_lock",
                                     "modifiers": {
@@ -40,33 +30,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "japanese_kana"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "input_sources": [
-                                            {
-                                                "language": "ja"
-                                            }
-                                        ],
-                                        "type": "input_source_if"
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "caps_lock",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
+                                        "key_code": "spacebar",
+                                        "modifiers": [
+                                            "control"
                                         ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "japanese_eisuu"
                                     }
                                 ],
                                 "type": "basic"
