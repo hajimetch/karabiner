@@ -23,18 +23,6 @@
             {
               "key_code": "japanese_eisuu"
             }
-          ],
-          "conditions": [
-            {
-              "bundle_identifiers": [
-                "^com\\.parallels\\.desktop$",
-                "^com\\.parallels\\.vm$",
-                "^com\\.parallels\\.desktop\\.console$",
-                "^com\\.parallels\\.winapp\\.",
-                "^com\\.amazon\\.workspaces$"
-              ],
-              "type": "frontmost_application_unless"
-            }
           ]
         },
         {
@@ -55,18 +43,6 @@
           "to_if_alone": [
             {
               "key_code": "japanese_kana"
-            }
-          ],
-          "conditions": [
-            {
-              "bundle_identifiers": [
-                "^com\\.parallels\\.desktop$",
-                "^com\\.parallels\\.vm$",
-                "^com\\.parallels\\.desktop\\.console$",
-                "^com\\.parallels\\.winapp\\.",
-                "^com\\.amazon\\.workspaces$"
-              ],
-              "type": "frontmost_application_unless"
             }
           ]
         }
