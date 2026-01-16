@@ -215,7 +215,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             }
           ]
@@ -287,7 +288,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             }
           ]
@@ -354,7 +356,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             }
           ]
@@ -421,7 +424,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             }
           ]
@@ -565,7 +569,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             }
           ]
@@ -633,7 +638,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             }
           ]
@@ -701,7 +707,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             }
           ]
@@ -769,7 +776,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             }
           ]
@@ -836,7 +844,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             }
           ]
@@ -1030,7 +1039,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             }
           ]
@@ -1100,7 +1110,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             }
           ]
@@ -1170,7 +1181,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             }
           ]
@@ -1239,7 +1251,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             }
           ]
@@ -1313,7 +1326,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             }
           ]
@@ -1387,7 +1401,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             }
           ]
@@ -2193,7 +2208,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             }
           ]
@@ -2264,7 +2280,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             }
           ]
@@ -2333,7 +2350,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             },
             {
@@ -2407,7 +2425,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             },
             {
@@ -2481,7 +2500,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             },
             {
@@ -2555,7 +2575,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             }
           ]
@@ -2621,7 +2642,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             },
             {
@@ -2696,7 +2718,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             },
             {
@@ -2767,7 +2790,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             },
             {
@@ -2838,7 +2862,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             },
             {
@@ -2909,7 +2934,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             },
             {
@@ -2980,7 +3006,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             },
             {
@@ -3055,7 +3082,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             },
             {
@@ -3130,7 +3158,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             },
             {
@@ -3205,7 +3234,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             },
             {
@@ -3280,7 +3310,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             },
             {
@@ -3355,7 +3386,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             },
             {
@@ -3430,7 +3462,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             },
             {
@@ -3505,7 +3538,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             },
             {
@@ -3580,7 +3614,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             },
             {
@@ -3655,7 +3690,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             },
             {
@@ -3730,7 +3766,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^com\\.amazon\\.workspaces$"
+                "^com\\.amazon\\.workspaces$",
+                "^com\\.todesktop\\.230313mzl4w4u92$"
               ]
             },
             {
