@@ -4,30 +4,7 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "description": "左右CommandでIMEを切り替える",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "left_command",
-                                    "modifiers": { "optional": ["any"] }
-                                },
-                                "to": [{ "key_code": "left_command" }],
-                                "to_if_alone": [{ "key_code": "japanese_eisuu" }],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "right_command",
-                                    "modifiers": { "optional": ["any"] }
-                                },
-                                "to": [{ "key_code": "right_command" }],
-                                "to_if_alone": [{ "key_code": "japanese_kana" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "CapsLockでIMEをトグルする",
+                        "description": "CtrlでIMEをトグルする",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -37,24 +14,26 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "caps_lock",
+                                    "key_code": "left_control",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "key_code": "japanese_eisuu" }],
+                                "to": [{ "key_code": "left_control" }],
+                                "to_if_alone": [{ "key_code": "japanese_eisuu" }],
                                 "type": "basic"
                             },
                             {
                                 "conditions": [
                                     {
-                                        "input_sources": [{ "language": "ja" }],
-                                        "type": "input_source_unless"
+                                        "input_sources": [{ "language": "en" }],
+                                        "type": "input_source_if"
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "caps_lock",
+                                    "key_code": "left_control",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "key_code": "japanese_kana" }],
+                                "to": [{ "key_code": "left_control" }],
+                                "to_if_alone": [{ "key_code": "japanese_kana" }],
                                 "type": "basic"
                             }
                         ]
@@ -121,7 +100,8 @@
                                             "^org\\.macports\\.X11$",
                                             "^com\\.sublimetext\\.",
                                             "^com\\.microsoft\\.VSCode$",
-                                            "^com\\.amazon\\.workspaces$"
+                                            "^com\\.amazon\\.workspaces$",
+                                            "^com\\.todesktop\\.230313mzl4w4u92$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -179,7 +159,8 @@
                                             "^org\\.macports\\.X11$",
                                             "^com\\.sublimetext\\.",
                                             "^com\\.microsoft\\.VSCode$",
-                                            "^com\\.amazon\\.workspaces$"
+                                            "^com\\.amazon\\.workspaces$",
+                                            "^com\\.todesktop\\.230313mzl4w4u92$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -237,7 +218,8 @@
                                             "^org\\.macports\\.X11$",
                                             "^com\\.sublimetext\\.",
                                             "^com\\.microsoft\\.VSCode$",
-                                            "^com\\.amazon\\.workspaces$"
+                                            "^com\\.amazon\\.workspaces$",
+                                            "^com\\.todesktop\\.230313mzl4w4u92$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -340,7 +322,8 @@
                                             "^org\\.macports\\.X11$",
                                             "^com\\.sublimetext\\.",
                                             "^com\\.microsoft\\.VSCode$",
-                                            "^com\\.amazon\\.workspaces$"
+                                            "^com\\.amazon\\.workspaces$",
+                                            "^com\\.todesktop\\.230313mzl4w4u92$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -398,7 +381,8 @@
                                             "^org\\.macports\\.X11$",
                                             "^com\\.sublimetext\\.",
                                             "^com\\.microsoft\\.VSCode$",
-                                            "^com\\.amazon\\.workspaces$"
+                                            "^com\\.amazon\\.workspaces$",
+                                            "^com\\.todesktop\\.230313mzl4w4u92$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -456,7 +440,8 @@
                                             "^org\\.macports\\.X11$",
                                             "^com\\.sublimetext\\.",
                                             "^com\\.microsoft\\.VSCode$",
-                                            "^com\\.amazon\\.workspaces$"
+                                            "^com\\.amazon\\.workspaces$",
+                                            "^com\\.todesktop\\.230313mzl4w4u92$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -514,7 +499,8 @@
                                             "^org\\.macports\\.X11$",
                                             "^com\\.sublimetext\\.",
                                             "^com\\.microsoft\\.VSCode$",
-                                            "^com\\.amazon\\.workspaces$"
+                                            "^com\\.amazon\\.workspaces$",
+                                            "^com\\.todesktop\\.230313mzl4w4u92$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -572,7 +558,8 @@
                                             "^org\\.macports\\.X11$",
                                             "^com\\.sublimetext\\.",
                                             "^com\\.microsoft\\.VSCode$",
-                                            "^com\\.amazon\\.workspaces$"
+                                            "^com\\.amazon\\.workspaces$",
+                                            "^com\\.todesktop\\.230313mzl4w4u92$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -725,7 +712,8 @@
                                             "^org\\.macports\\.X11$",
                                             "^com\\.sublimetext\\.",
                                             "^com\\.microsoft\\.VSCode$",
-                                            "^com\\.amazon\\.workspaces$"
+                                            "^com\\.amazon\\.workspaces$",
+                                            "^com\\.todesktop\\.230313mzl4w4u92$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -783,7 +771,8 @@
                                             "^org\\.macports\\.X11$",
                                             "^com\\.sublimetext\\.",
                                             "^com\\.microsoft\\.VSCode$",
-                                            "^com\\.amazon\\.workspaces$"
+                                            "^com\\.amazon\\.workspaces$",
+                                            "^com\\.todesktop\\.230313mzl4w4u92$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -846,7 +835,8 @@
                                             "^org\\.macports\\.X11$",
                                             "^com\\.sublimetext\\.",
                                             "^com\\.microsoft\\.VSCode$",
-                                            "^com\\.amazon\\.workspaces$"
+                                            "^com\\.amazon\\.workspaces$",
+                                            "^com\\.todesktop\\.230313mzl4w4u92$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -909,7 +899,8 @@
                                             "^org\\.macports\\.X11$",
                                             "^com\\.sublimetext\\.",
                                             "^com\\.microsoft\\.VSCode$",
-                                            "^com\\.amazon\\.workspaces$"
+                                            "^com\\.amazon\\.workspaces$",
+                                            "^com\\.todesktop\\.230313mzl4w4u92$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -957,6 +948,12 @@
             ],
             "name": "Default profile",
             "selected": true,
+            "simple_modifications": [
+                {
+                    "from": { "key_code": "caps_lock" },
+                    "to": [{ "key_code": "left_control" }]
+                }
+            ],
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
                 "country_code": 0,
